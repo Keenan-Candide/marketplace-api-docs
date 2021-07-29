@@ -1,4 +1,4 @@
-# Order Management
+# Orders
 
 ## Get Orders
 

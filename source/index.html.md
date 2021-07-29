@@ -13,6 +13,7 @@ includes:
   - authentication
   - rate-limiting
   - listings
+  - orders
   - errors
 
 search: true

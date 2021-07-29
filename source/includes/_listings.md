@@ -8,7 +8,7 @@
 curl "https://marketplace-api.candideapp.com/v1/listing?sku=93A-123" \
   -X PATCH \
   -H 'Content-Type: application/json' \
-  -H "Authorization: Bearer plants-plants-plants" \
+  -H "Authorization: plants-plants-plants" \
   -d '{"quantity": 42}'
 ```
 
@@ -53,7 +53,7 @@ Currently only updating quantity is supported.
 curl "https://marketplace-api.candideapp.com/v1/listings/batch-update" \
   -X POST \
   -H 'Content-Type: application/json' \
-  -H "Authorization: Bearer plants-plants-plants" \
+  -H "Authorization: plants-plants-plants" \
   --data-binary @- << EOF
 {
 	"requests": [

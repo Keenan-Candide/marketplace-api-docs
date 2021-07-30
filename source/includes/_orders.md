@@ -48,8 +48,7 @@ curl "https://marketplace-api.candideapp.com/v1/orders" \
       "updatedAt": "2021-07-19T11:50:17.713Z"
     }
   ],
-  "forwardEdge": "eyJpZCI6ImUzZjFlYTg5LWM0ZDMtNGQ5Ni1iNGQ3LTg1ZWNlNTJjY2YxYyIsImNyZWF0ZWRBdCI6IjIwMjAtMTEtMDRUMTM6NTk6MzYuNzM1WiJ9",
-  "hasMore": false
+  "nextCursor": "eyJpZCI6ImUzZjFlYTg5LWM0ZDMtNGQ5Ni1iNGQ3LTg1ZWNlNTJjY2YxYyIsImNyZWF0ZWRBdCI6IjIwMjAtMTEtMDRUMTM6NTk6MzYuNzM1WiJ9"
 }
 ```
 

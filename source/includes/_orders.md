@@ -56,7 +56,7 @@ You can retrieve open orders in batches of 50 at a time.
 
 ### HTTP Request
 
-`POST http://marketplace-api.candideapp.com/v1/orders`
+`GET http://marketplace-api.candideapp.com/v1/orders`
 
 ### Arguments
 

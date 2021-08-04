@@ -56,7 +56,7 @@ You can retrieve open orders in batches of 50 at a time.
 
 ### HTTP Request
 
-`GET http://marketplace-api.candideapp.com/v1/orders`
+`GET https://marketplace-api.candideapp.com/v1/orders`
 
 ### Arguments
 
@@ -94,7 +94,7 @@ Marks an order as dispatched and sends an email to the buyer with the provided n
 
 ### HTTP Request
 
-`POST http://marketplace-api.candideapp.com/v1/orders/<ID>/dispatch`
+`POST https://marketplace-api.candideapp.com/v1/orders/<ID>/dispatch`
 
 ### URL Parameters
 

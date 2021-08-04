@@ -27,7 +27,7 @@ Modifies a listing.
 
 ### HTTP Request
 
-`PATCH http://marketplace-api.candideapp.com/v1/listing?sku=<ID>`
+`PATCH https://marketplace-api.candideapp.com/v1/listing?sku=<ID>`
 
 ### URL Parameters
 
@@ -95,7 +95,7 @@ You can update multiple listings with a single HTTP call using batch updates.
 
 ### HTTP Request
 
-`POST http://marketplace-api.candideapp.com/v1/listings/batch-update`
+`POST https://marketplace-api.candideapp.com/v1/listings/batch-update`
 
 ### Arguments
 

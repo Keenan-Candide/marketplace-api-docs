@@ -405,7 +405,7 @@ You must replace <code>plants-plants-plants</code> with your account's API key.
 </span></code></pre></div>
 <p>Modifies a listing.</p>
 <h3 id='http-request'>HTTP Request</h3>
-<p><code>PATCH http://marketplace-api.candideapp.com/v1/listing?sku=&lt;ID&gt;</code></p>
+<p><code>PATCH https://marketplace-api.candideapp.com/v1/listing?sku=&lt;ID&gt;</code></p>
 <h3 id='url-parameters'>URL Parameters</h3>
 <table><thead>
 <tr>
@@ -481,7 +481,7 @@ Currently only updating quantity is supported.
 </span></code></pre></div>
 <p>You can update multiple listings with a single HTTP call using batch updates.</p>
 <h3 id='http-request-2'>HTTP Request</h3>
-<p><code>POST http://marketplace-api.candideapp.com/v1/listings/batch-update</code></p>
+<p><code>POST https://marketplace-api.candideapp.com/v1/listings/batch-update</code></p>
 <h3 id='arguments-2'>Arguments</h3>
 <table><thead>
 <tr>
@@ -561,7 +561,7 @@ Currently only update operations that modify quantity are supported.
 </span></code></pre></div>
 <p>You can retrieve open orders in batches of 50 at a time.</p>
 <h3 id='http-request'>HTTP Request</h3>
-<p><code>GET http://marketplace-api.candideapp.com/v1/orders</code></p>
+<p><code>GET https://marketplace-api.candideapp.com/v1/orders</code></p>
 <h3 id='arguments'>Arguments</h3>
 <table><thead>
 <tr>
@@ -601,7 +601,7 @@ Currently only retrieving open orders is supported.
 </span></code></pre></div>
 <p>Marks an order as dispatched and sends an email to the buyer with the provided note (if supplied).</p>
 <h3 id='http-request-2'>HTTP Request</h3>
-<p><code>POST http://marketplace-api.candideapp.com/v1/orders/&lt;ID&gt;/dispatch</code></p>
+<p><code>POST https://marketplace-api.candideapp.com/v1/orders/&lt;ID&gt;/dispatch</code></p>
 <h3 id='url-parameters'>URL Parameters</h3>
 <table><thead>
 <tr>
